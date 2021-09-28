@@ -419,7 +419,7 @@ class Moderation(commands.Cog):
 
         # [`hash`](url) message (offset)
         offset = time.human_timedelta(commit_time.astimezone(datetime.timezone.utc).replace(tzinfo=None), accuracy=1)
-        return f'[`{short_sha2}`](https://github.com/walthersmith/kajtuxBot/commit/{commit.hex}) {short} ({offset})'
+        return f'[`{short_sha2}`](https://github.com/walthersmith/kajtux/commit/{commit.hex}) {short} ({offset})'
 
     def get_last_commits(self, count=3):
         repo = pygit2.Repository('.git')
