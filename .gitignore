@@ -1,0 +1,10 @@
+.env
+*.csv
+.idea/*
+*.log
+1
+.pyc
+__pycache__/
+*.db
+env/
+test/*
